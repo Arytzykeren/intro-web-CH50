@@ -1,0 +1,56 @@
+* {
+    background-color: darkkhaki;
+    // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 400 to 900
+
+.cinzel-<uniquifier> {
+  font-family: "Cinzel", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+   
+}
+
+
+h1 {
+    color: darkgreen 
+    
+    
+
+}
+h1 {
+    text-align: center;
+    font-family: "Cinzel", serif;
+    
+    
+}
+h2 {color:darkgreen
+    
+}
+h2 {
+    font-family: cursive;
+}
+h3 {
+    color:darkgreen
+}
+h3 {
+    font-family: cursive;
+}
+P{
+    font-family:cursive
+}
+.tops{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font size: 30px;
+
+}
+
+h4 {
+    font-family: cursive;
+    font-size: 30px
+    
+}
+h4{
+    color:forestgreen
+}

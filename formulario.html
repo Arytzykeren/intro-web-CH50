@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="formulario.css">
+</head>
+<body>
+    <header>
+        <h1>¡Envianos tus mejores recuerdos, nosotros te hacemos cuadros con el mejor diseño y tu decoras tu hogar!</h1>
+        <h4>Envia tus fotos al correo oaritzy@gmail.com</h4>
+    </header>
+    <main>
+        <section>
+            <form action="">
+                <fieldset>
+                    <legend>Datos básicos</legend>
+                 Nombre: <input type="text" placeholder="Arytzy"><br>
+              Apellidos: <input type="text" placeholder="olan" required>
+              Correo electronico <input type="email" placeholder="oaritzy@gmail.com">
+              Teléfono <input type="tal" name="" id="" placeholder="9934786509">
+
+
+                </fieldset>
+                <fieldset>
+                    <legend>Datos del pedido</legend>
+                    <spam>Pedidos a partir de una pieza y máximo mil piezas
+                    </spam><br>
+                    Número de cuadros:<input type="number" min="1" max="1000" required>
+                    Fecha de entrega: <input type="date">
+                </fieldset>
+                <fieldset>
+                    <legend>Datos del envío</legend>
+                    <label for="recoger-en-sucursal">
+                    <input id="recoger en sucursal" type="radio" name="tipo de envio"> Recoger en sucursal
+                    </label>
+                    <label for="envio-a-domicilio">
+                    <input type="radio" name="tipo de envio"> Envío a domicilio
+                </label>
+                    <label for="delivery">
+                    <input id="delivery" type="radio" name="tipo de envio"> Delivery
+            </label>
+                    <input type="radio" name="tipo de envio"> Punto medio <br>
+                    <select name="sucursales">
+                        <option value=""> sucursales coyoacán </option>
+                        <option value=""> sucursales Ermita   </option>
+                        <optio value=""> sucursales insurgentes</option>
+                        <optio value=""> sucursal oriente</option>
+                        <option value=""> sucursal centro </option>
+                        <option value="">Neza </option>
+                        <option value="">Ecatepec</option>
+                        <option value="">coyoacán</option>
+                        <option value="">Ermitan</option>
+                        <option value="">oriente</option>
+                        <option value="">centro</option>
+                        <option value="">Neza</option>
+                        <option value="">ecatepec</option>
+                        
+
+
+                    </select>
+                    <br>
+                    <input list="sucursal">
+                    <detalist id="sucursal">
+                        <option value="Xochimilco"> </option>
+                        <option value=""></option>
+                        <option value=""></option>
+                        <option value=""></option>
+                        <option value=""></option>
+
+                    </detalist>
+                    <br>
+                    <input type="checkbox"> Acepto términos y condiciones
+                    <br>
+                    <input type="submit">
+
+        
+                    
+                </fieldset>
+                <button type="submit"> ¡Enviar ya!</button>
+
+            </form>
+
+        </section>
+    </main>
+</body>
+</html>
